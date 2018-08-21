@@ -12,6 +12,7 @@ const codes = [
 ];
 
 function init() {
+  const body = document.querySelector('body')
   let index = 0;
   function onDownKeyHandler(e) {
     const which = e.key;
